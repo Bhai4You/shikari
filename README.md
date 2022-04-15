@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/shikari.gif" alt=""></a>
+  <a href="#"><img src="https://github.com/Bhai4You/bhai4you/raw/master/shikari.gif" alt=""></a>
 
 
 ## Features
