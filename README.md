@@ -2,12 +2,7 @@
 <h1 align="center">
   <br>
   <a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/shikari.gif" alt=""></a>
-  <br>
-  Shikari
-  <br>
-</h1>
 
-<h4 align="center">Create Backdoor in Termux</h4>
 
 ## Features
 
