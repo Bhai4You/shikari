@@ -124,10 +124,12 @@ Created on victim device, everytime your victim open termux you will get his dat
 <a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/IMG_20220414_205256_944__01.jpg"></a>
 <a href="#"><img src="https://raw.githubusercontent.com/Bhai4You/bhai4you/master/IMG_20220414_205300_548.jpg"></a>
 
+### Video Tutorial
+[![Part : 1](https://raw.githubusercontent.com/Bhai4You/bhai4you/master/png_20220430_155107_0000.png)](https://www.youtube.com/watch?v=fQX3X8DiP3M)
 
 ### Error/Problems
-Send Mail to this id if you are facing any problems.</br>
-Mail : parixit1337@gmail.com
+Telegram : @realbhai4you
+
 ### Disclaimer
 The tutorial and demo provided for informational and educational purpose only, and for those who’re willing and curious to know and learn about Ethical Hacking, Security and Penetration Testing.</br></br> Any time the word “Hacking” that is used on this Application shall be regarded as Ethical Hacking.</br></br>
 You shall not misuse the information to gain unauthorised access. However you may try out these hacks on your own computer at your own risk. Performing hack attempts (without permission) on computers that you do not own is illegal.
