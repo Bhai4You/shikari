@@ -126,7 +126,7 @@ Created on victim device, everytime your victim open termux you will get his dat
 
 ### Video Tutorial
 [![Part : 1](https://raw.githubusercontent.com/Bhai4You/bhai4you/master/png_20220430_155107_0000.png)](https://www.youtube.com/watch?v=fQX3X8DiP3M)
-
+[![Part : 2](https://raw.githubusercontent.com/Bhai4You/bhai4you/master/png_20220505_075952_0000.png)](https://youtu.be/ZXnpzzjZfsg)
 ### Error/Problems
 Telegram : @realbhai4you
 
